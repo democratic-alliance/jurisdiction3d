@@ -2,7 +2,7 @@ Jurisdiction3D | [DIA Stack](DIA.md) | [DIA Regulator](regulator.md) | [Tech Spe
 # DIA Jurisdiction3D Manifesto
 ### Version 0.1.1 — Draft
 
-> **L0 defines the subject.  
+> **L0❤️ defines the subject.  
 > Jurisdiction constrains the action.  
 > DIA verifies the boundary.**
 
