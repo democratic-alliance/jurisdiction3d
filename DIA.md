@@ -3,9 +3,9 @@
 # DIA — Foundational Architecture
 
 This document is organized into three top-level sections: 
-* the [ontological model](1-dia-jurisdiction-stack) 
-* the [normative framework](2-dia-normative-framework) 
-* and the [architectural charter](3-dia-rchitectural-charter). 
+* the [ontological model](#1-dia-jurisdiction-stack) 
+* the [normative framework](#2-dia-normative-framework) 
+* and the [architectural charter](#3-dia-rchitectural-charter). 
 
 They are connected but have distinct purposes and grounds of justification.
 
