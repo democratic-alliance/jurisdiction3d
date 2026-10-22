@@ -1,4 +1,5 @@
-# DIA International Manifesto
+[Jurisdiction3D Manifesto](README.md) | [DIA Stack](DIA.md) | [DIA Regulator](regulator.md) | [Tech Spec](TECH-SPEC.md) | [Funding](FUNDING.md)
+# DIA Jurisdiction3D Manifesto
 ### Version 0.1.1 — Draft
 
 > **L0 defines the subject.  
