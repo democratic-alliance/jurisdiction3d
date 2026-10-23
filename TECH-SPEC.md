@@ -1,6 +1,6 @@
 [Jurisdiction3D](README.md) | [DIA Stack](DIA.md) | [DIA Regulator](regulator.md) | Tech Spec | [Funding](FUNDING.md)
 
-# Jurisdiction3D — Technical Specification
+# Technical Specification
 
 **Version:** 0.3.1-draft    
 **Organization:** [Democratic Alliance](https://github.com/democratic-alliance)       
