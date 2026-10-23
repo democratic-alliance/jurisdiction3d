@@ -1,12 +1,17 @@
+[Jurisdiction3D](README.md) | [DIA Stack](DIA.md) | [DIA Regulator](regulator.md) | Tech Spec | [Funding](FUNDING.md)
+
 # Jurisdiction3D — Technical Specification
 
-**Version:** 0.3-draft    
-**Organization:** Democratic Alliance       
+**Version:** 0.3.1-draft    
+**Organization:** [Democratic Alliance](https://github.com/democratic-alliance)       
 **Infrastructure:** Democratic International Architecture (DIA)         
 **Based on:** *Jurisdiction3D - Formal Model* v0.2, [DIA Stack](DIA.md), [Regulator Object](regulator.md), [DIA International Manifesto](README.md).            
 **Status:** Draft for review. Not normative until approved.      
 
-> **L0 defines the subject. Jurisdiction constrains the action. Rules define the constraints. DIA proves what happened.**
+> **L0 defines the subject.
+> Jurisdiction constrains the action.
+> Rules define the constraints.
+> DIA proves what happened.**
 
 ---
 
@@ -87,10 +92,10 @@ D2  Economy and resources   D2.finance.crypto, D2.property, D2.labour, D2.commun
 **Representation.** A domain is a dotted path. `d ⊑ d'` ("d is a sub-domain of d'") holds iff `d'` is a prefix of `d` at a segment boundary.
 
 ```text
-D2.finance.crypto ⊑ D2.finance      true
+D2.finance.crypto ⊑ D2.finance          true
 D2.finance        ⊑ D2.finance.crypto   false
-D2.finance        ⊑ D2.property     false
-D2.finance        ⊑ D0              false
+D2.finance        ⊑ D2.property         false
+D2.finance        ⊑ D0                  false
 ```
 
 **Rules.**
@@ -550,7 +555,7 @@ The political parameters of the forum. They are **not truths of the model**; dif
   "root_sources": ["statute", "treaty", "court_order", "contract", "membership", "protocol_governance"],
   "phi0": "ref:…",
   "precedence_rec": [ { "over": "…", "under": "…" } ],
-  "proximity_weights": { "territory": 0.3, "residence": 0.2, "effects": 0.2, "…": 0.0 },
+  "proximity_weights": { "territory": , "residence": 0.2, "effects": 0.2, "…": 0.0 },
   "max_chain_depth": 16,
   "dispute_mechanism": "ref:… | null",
   "status_handling": "flag"
@@ -788,7 +793,7 @@ Transport-agnostic. Each operation is a pure function of its request plus a Snap
 ```json
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.org/jurisdiction3d/v0.3/schema.json",
+  "$id": "https://democratic-alliance.github.іо/jurisdiction3d/v/schema.json",
   "$defs": {
     "id": { "type": "string", "pattern": "^[a-z]+:[A-Za-z0-9._:-]+$" },
     "hash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
