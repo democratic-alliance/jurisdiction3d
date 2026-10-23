@@ -1,3 +1,5 @@
+[Jurisdiction3D](README.md) | [DIA Stack](DIA.md) | [DIA Regulator](regulator.md) | [Tech Spec](TECH-SPEC.md) | Funding
+
 # Jurisdiction3D: Verifiable Jurisdiction and Authority for Cross-Border Digital Interactions
 
 **Proposal draft v0.1** · [Democratic Alliance](https://github.com/democratic-alliance) · built on the [Democratic International Architecture (DIA)](DIA.md).         
