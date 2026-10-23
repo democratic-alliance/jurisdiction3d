@@ -1,6 +1,6 @@
 [Jurisdiction3D](README.md) | DIA Stack | [DIA Regulator](regulator.md) | [Tech Spec](TECH-SPEC.md) | [Funding](FUNDING.md)
 
-# DIA — Foundational Architecture
+# DIA. Foundational Architecture
 
 This document is organized into three top-level sections: 
 * the [ontological model](#1-dia-jurisdiction-stack) 
