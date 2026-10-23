@@ -1,7 +1,7 @@
 [Jurisdiction3D](README.md) | [DIA Stack](DIA.md) | [DIA Regulator](regulator.md) | [Tech Spec](TECH-SPEC.md) | Funding
 
 # DIA. Funding 
-### Jurisdiction3D: Verifiable Jurisdiction and Authority for Cross-Border Digital Interactions
+## Jurisdiction3D: Verifiable Jurisdiction and Authority for Cross-Border Digital Interactions
 
 **Proposal draft v0.1** · [Democratic Alliance](https://github.com/democratic-alliance) · built on the [Democratic International Architecture (DIA)](DIA.md).         
 **Format:** NGI-style transatlantic proposal (modelled on the NGI Sargasso call structure; see the status note below).       
@@ -11,7 +11,7 @@
 
 ---
 
-## 1. Summary (target: ~200 words)
+### 1. Summary (target: ~200 words)
 
 People and organizations increasingly act across several overlapping rule systems at once: national law, contracts, platform policies, protocol and DAO rules, professional and ethical codes. Today no open, machine-verifiable way exists to answer three basic questions about a cross-border digital action: **which rules apply, who has the authority to impose them, and what evidence supports that answer.**
 
@@ -21,22 +21,22 @@ The project will deliver a stable specification, a reference implementation, pri
 
 ---
 
-## 2. The problem
+### 2. The problem
 
-### 2.1 What is missing
+#### 2.1 What is missing
 
 - **Identity systems answer "who", not "under what authority".** A verified identity says nothing about whether the party acting on it is entitled to impose a rule, and in which domain.
 - **Cross-border actions fall under several rule sets at the same time.** A single token sale, data transfer or service restriction can touch the law of two states, a contract, a protocol's governance and a platform's policy. Systems tend to hide this by choosing one set of rules implicitly.
 - **Authority is implicit and unbounded in practice.** Control of a lower layer (e.g. infrastructure or a protocol) can end up acting as authority over a higher one, and it is difficult to demonstrate this when it happens.
 - **Conflicts are treated as errors to be hidden.** Users, auditors and courts receive an outcome without a reconstructible reason.
 
-### 2.2 Why it matters for the Next Generation Internet
+#### 2.2 Why it matters for the Next Generation Internet
 
 An internet that is trustworthy, human-centric and respects data sovereignty needs the *rules of the interaction* to be as inspectable as the data. Without it, trust remains institutional ("trust the platform"), and cross-border interoperability stops at the data format and never reaches the legal and normative layer.
 
 ---
 
-## 3. Fit with NGI priorities
+### 3. Fit with NGI priorities
 
 | NGI Sargasso theme (as published) | How Jurisdiction3D addresses it |
 |---|---|
@@ -49,9 +49,9 @@ An internet that is trustworthy, human-centric and respects data sovereignty nee
 
 ---
 
-## 4. Concept and approach
+### 4. Concept and approach
 
-### 4.1 Core ideas (from the DIA framework)
+#### 4.1 Core ideas (from the DIA framework)
 
 1. **Subject first, relationships second, objects third.** The individual exists before the systems that describe, govern or serve them. A database record, account, wallet or credential is a representation, not the person.
 2. **Authority is relational and explicit.** For each relationship the model records the source of authority, scope, duration, powers, limits and a review mechanism.
@@ -60,7 +60,7 @@ An internet that is trustworthy, human-centric and respects data sovereignty nee
 5. **Conflict is data.** Where rules clash and no published procedure decides between them, the output is an explicit `Open` result routed to a dispute mechanism.
 6. **The model is not a sovereign.** It does not decide what is just, lawful or ethical. It computes which rule prevails *under the policy tables a forum has itself published*.
 
-### 4.2 The three-dimensional model
+#### 4.2 The three-dimensional model
 
 A norm's competence is a *region* in a space with three axes:
 
@@ -72,17 +72,17 @@ The normative layers (state law, contract, ethical/religious norms, protocol rul
 
 Because regions are boxes, containment and intersection are cheap, exact checks. This turns "no privilege escalation" from a principle into a property that software can verify.
 
-### 4.3 Conflict resolution
+#### 4.3 Conflict resolution
 
 A deterministic cascade resolves clashes in a fixed order: admissibility of the rule → protected-core exclusion → mandatory over voluntary rules → recognised precedence → proximity of connection → specificity → time → explicit voluntary hierarchy → **Open**. Each step is recorded. The political parameters (precedence tables, weights, definition of the protected core) are published, versioned *forum policies*, so differences between forums become visible rather than buried in code.
 
-### 4.4 Verifiability without exposure
+#### 4.4 Verifiability without exposure
 
 Core statements, such as "this authority is validly delegated", "this action falls inside that authority's scope" or "this rule version applied at this time", are provable with selective disclosure or zero-knowledge techniques, so a verifier learns the fact without learning the underlying personal or commercial data.
 
 ---
 
-## 5. Objectives and expected results
+### 5. Objectives and expected results
 
 | # | Objective | Measurable result |
 |---|---|---|
@@ -95,7 +95,7 @@ Core statements, such as "this authority is validly delegated", "this action fal
 
 ---
 
-## 6. Work plan
+### 6. Work plan
 
 > Durations and effort are placeholders. Adjust to the target call's project length and funding ceiling (the last Sargasso call offered up to €100,000 per project).
 
@@ -108,7 +108,7 @@ Core statements, such as "this authority is validly delegated", "this action fal
 | WP5 | Transatlantic pilot | 6–9 | `[joint]` | Two jurisdictions' rule samples encoded; end-to-end scenarios; lessons learned |
 | WP6 | Standards, community, dissemination | 1–9 | `[joint]` | Contributions to standards groups; documentation; talks and workshops |
 
-### Milestones
+#### Milestones
 
 | ID | Month | Milestone |
 |---|---|---|
@@ -119,7 +119,7 @@ Core statements, such as "this authority is validly delegated", "this action fal
 
 ---
 
-## 7. Transatlantic collaboration and pilot
+### 7. Transatlantic collaboration and pilot
 
 The model's central test is a **cross-jurisdiction collision**. The pilot encodes the same scenario under at least two regimes and checks whether the resolution procedure produces a justified result or an honest `Open`.
 
@@ -136,7 +136,7 @@ The model's central test is a **cross-jurisdiction collision**. The pilot encode
 
 ---
 
-## 8. Open source, standards and sustainability
+### 8. Open source, standards and sustainability
 
 - **Licensing:** specification and schemas under `[CC BY 4.0]`; code under `[Apache-2.0 / MPL-2.0]`; all test data public. `[Confirm with legal advice]`
 - **Standards engagement:** relevant targets include identity and credential standards communities and internet-governance forums. Specific groups and a contribution plan will be fixed after consultation with the partners. `[PLACEHOLDER]`
@@ -146,7 +146,7 @@ The model's central test is a **cross-jurisdiction collision**. The pilot encode
 
 ---
 
-## 9. Impact
+### 9. Impact
 
 | Audience | Expected benefit |
 |---|---|
@@ -160,7 +160,7 @@ The model's central test is a **cross-jurisdiction collision**. The pilot encode
 
 ---
 
-## 10. Risks and mitigation
+### 10. Risks and mitigation
 
 | Risk | Likelihood / impact | Mitigation |
 |---|---|---|
@@ -175,7 +175,7 @@ The model's central test is a **cross-jurisdiction collision**. The pilot encode
 
 ---
 
-## 11. Ethics, data protection and responsible use
+### 11. Ethics, data protection and responsible use
 
 - The project works on **rule structures and synthetic or public data**. No personal data is required for the research plan. `[Confirm with data-protection advice]`
 - AI systems, where used for classification, produce **evidence for a human or authority to attest**. They are never the source of a decision.
@@ -184,7 +184,7 @@ The model's central test is a **cross-jurisdiction collision**. The pilot encode
 
 ---
 
-## 12. Applicant and team
+### 12. Applicant and team
 
 - **Applicant:** Democratic Alliance. `[PLACEHOLDER: legal form, country of registration, eligibility category (e.g. NGO / non-profit), registration number]`
 - **Team:** `[PLACEHOLDER: names, roles, relevant experience, publications, prior open-source work]`
@@ -192,7 +192,7 @@ The model's central test is a **cross-jurisdiction collision**. The pilot encode
 
 ---
 
-## 13. Budget (illustrative; replace with the call's template)
+### 13. Budget (illustrative; replace with the call's template)
 
 The numbers below only show a plausible *shape* for a project with a €100,000 ceiling. They are not estimates of real costs.
 
@@ -210,7 +210,7 @@ The numbers below only show a plausible *shape* for a project with a €100,000 
 
 ---
 
-## 14. Before submitting: checklist
+### 14. Before submitting: checklist
 
 - [ ] Find an **open call** that fits (the Sargasso series has ended). Candidates to investigate: successor NGI funding, other Horizon Europe cascade or direct calls, and national or private programmes for open-source trust infrastructure.
 - [ ] Obtain and follow that call's **template, page limits, criteria and eligibility rules**.
@@ -223,7 +223,7 @@ The numbers below only show a plausible *shape* for a project with a €100,000 
 
 ---
 
-## Appendix A: Mapping to the Technical Specification
+### Appendix A: Mapping to the Technical Specification
 
 | Proposal element | Specification section |
 |---|---|
@@ -236,6 +236,6 @@ The numbers below only show a plausible *shape* for a project with a €100,000 
 | Conformance suite | §11 |
 | Open decisions (SD-1…5) and issues (OI-1…8) | §12 |
 
-## Appendix B: Sources checked for this draft
+### Appendix B: Sources checked for this draft
 
 Call status and programme details were taken from public pages on NGI Sargasso (the fifth call's closing date and the "final call" announcement on the NGI community site, call listings on EU funding portals). They may be out of date; confirm on the official programme site before relying on them.
